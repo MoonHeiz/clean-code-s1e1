@@ -56,6 +56,11 @@ input, button {
   margin: 0 auto 0;
 }
 
+.todo__form{
+  margin-block-start: 1em;
+  margin-block-end: 1em
+}
+
 .todo-form__name{
   display: block;
   margin: 0 0 20px;
@@ -70,6 +75,7 @@ input, button {
 
 .todo__form-wrapper{
   display: flex;
+  margin-top: 20px;
 }
 
 .todo-form__add-task{
