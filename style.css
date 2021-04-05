@@ -157,7 +157,7 @@ input, button {
 }
 
 .task__image:hover {
-  transform:rotateZ(0);
+  transform: rotateZ(0);
 }
 
 .todo-form__add-task:hover, .task__edit:hover{
