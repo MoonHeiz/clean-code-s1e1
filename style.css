@@ -160,7 +160,8 @@ input, button {
   transform: rotateZ(0);
 }
 
-.todo-form__add-task:hover, .task__edit:hover{
+.todo-form__add-task:hover,
+.task__edit:hover{
   color: #333;
 }
 
