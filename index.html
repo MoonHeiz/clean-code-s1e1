@@ -11,7 +11,7 @@
     </div>
     <div class="todo">
       <p class="todo__form todo-form">
-        <label for="new-task">Add Item</label>
+        <label class="todo-form__name" for="new-task">Add Item</label>
         <div class="todo__form-wrapper">
           <input class="todo-form__add-task" type="text">
           <button>Add</button>
@@ -25,7 +25,7 @@
           <input class="task__edit" type="text">
           <button class="btn btn_edit">Edit</button>
           <button class="btn btn_delete">
-            <img src="./remove.svg">
+            <img class="task__image" src="./remove.svg">
           </button>
         </li>
         <li class="todo__task task_edit">
@@ -34,19 +34,19 @@
           <input class="task__edit" type="text" value="Go Shopping">
           <button class="btn btn_edit">Save</button>
           <button class="btn btn_delete">
-            <img src="./remove.svg">
+            <img class="task__image" src="./remove.svg">
           </button>
         </li>
       </ul>
       <h3 class="todo__title">Completed</h3>
       <ul class="completed-tasks" id="completed-tasks">
-        <li>
+        <li class="todo__task">
           <input class="task__status" type="checkbox" checked>
           <label class="task__name">See the Doctor</label>
           <input class="task__edit" type="text">
           <button class="edit">Edit</button>
           <button class="btn btn_delete">
-            <img src="./remove.svg">
+            <img class="task__image" src="./remove.svg">
           </button>
         </li>
       </ul>
