@@ -58,7 +58,7 @@ input, button {
 
 .todo__form{
   margin-block-start: 1em;
-  margin-block-end: 1em
+  margin-block-end: 1em;
 }
 
 .todo-form__name{
@@ -177,4 +177,9 @@ input, button {
     text-align: center;
   }
   
+}
+
+.completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
 }
